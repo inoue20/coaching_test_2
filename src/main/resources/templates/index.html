@@ -15,6 +15,9 @@
         </tr>
     </thead>
     <tbody>
+    <tr th:each="animal : ${animals}">
+    <td th:text="${animal.id}"></td>
+    <td th:text="${animal.name}"></td>
     	<!-- Q2-2 -->
     </tbody>
 </table>
